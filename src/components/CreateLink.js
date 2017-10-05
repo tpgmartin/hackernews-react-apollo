@@ -44,6 +44,8 @@ class CreateLink extends Component {
         url
       }
     })
+    // redirect to root
+    this.props.history.push('/')
   }
 
 }
